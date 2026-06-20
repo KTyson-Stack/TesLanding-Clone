@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 30px;
+}
+.action-icons{
+    width: 25px
+}
+.logo{
+    width: 125px;
+}
+
+.menu a, .options img{
+    margin: 0 10px;   
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    width: 186px;
+    height: 37px;
+    padding: 7px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-right: 5px;
+    
+}
+
+.primary{
+    background-color: rgb(62,106,225);
+}
+.primary:hover{
+    background-color: rgb(62, 97, 194);
+    cursor: pointer;
+}
+
+.secondary{
+    background-color: white;
+    color: rgb(57,68,65);
+}
+.secondary:hover{
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.secondary-darker{
+    background-color: rgb(244,244,244);
+    color: rgb(57,68,65);
+}
+.tertiary{
+    background-color: rgb(0,0,0);
+}
+.hero-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("images/hero-banner.avif") center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.cards{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+.model{
+    min-width: 50vw;
+    height: 60vh;
+    flex-shrink: 0;
+
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+}
+.cards .model-s{
+    background: url("images/model-s.avif") center center no-repeat;
+}
+.cards .model-3{
+    background: url("images/model-3.avif") center center no-repeat;
+
+}
+.model-x{
+    background: url("images/model-x.avif") center center no-repeat;
+}
+.model-y{
+    background: url("images/model-y.avif") center center no-repeat;
+}
